@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/at_refresh"
+        android:icon="@drawable/refresh"
+        android:title="@string/at_refresh"
+        app:showAsAction="ifRoom"
+        android:onClick="refreshMessage"/>
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_settings"
+        android:title="@string/at_settings"
+        app:showAsAction="never"/>
+
+</menu>

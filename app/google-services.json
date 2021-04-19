@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_id": "iems5722-1267",
+    "project_number": "885789091713",
+    "name": "iems5722"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885789091713:android:444e7a1b410ee774",
+        "client_id": "android:hk.edu.cuhk.ie.iems5722.a2_1155069587",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "hk.edu.cuhk.ie.iems5722.a2_1155069587",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}
